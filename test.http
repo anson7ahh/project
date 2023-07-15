@@ -1,0 +1,27 @@
+###
+post http://localhost:4000/v1/dangki
+Content-Type: application/json
+
+{
+    "username": "son222",
+    "password": "password",
+    "email": "em24l@gmail.com"
+    
+}
+
+
+###
+post http://localhost:4000/v1/login
+Content-Type: application/json
+
+{
+    "username": "son222",
+    "password": "password",
+    "email": "em24l@gmail.com"
+    
+}
+
+
+###
+post http://localhost:4000/v1/refresh
+Authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NGIwZjNmZWRhYjZkNTJhNTk2MTc5OTEiLCJhZG1pbiI6ZmFsc2UsImlhdCI6MTY4OTMxOTE4MiwiZXhwIjoxNzIwODU1MTgyfQ.eP3sVb2YdReR3r4V0UCMGp4vGx8hv7QPa0n5_PpNx0o.3gkpe-vkWsDir1hOGIRnghHyePJNaXbB6_6XcR9-pLg
